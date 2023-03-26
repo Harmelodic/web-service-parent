@@ -28,7 +28,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>3.0.4</version>
+                <version>3.0.5</version>
                 <type>pom</type>
                 <scope>import</scope>
                 <!-- Bill of Materials for managing Spring Boot Dependencies -->
@@ -44,7 +44,7 @@
             <dependency>
                 <groupId>au.com.dius.pact.consumer</groupId>
                 <artifactId>junit5</artifactId>
-                <version>4.5.1</version>
+                <version>4.5.4</version>
                 <scope>test</scope>
                 <exclusions>
                     <exclusion>
@@ -57,7 +57,7 @@
             <dependency>
                 <groupId>au.com.dius.pact.provider</groupId>
                 <artifactId>junit5spring</artifactId>
-                <version>4.5.1</version>
+                <version>4.5.4</version>
                 <scope>test</scope>
                 <exclusions>
                     <exclusion>
@@ -86,7 +86,7 @@
                 <!-- Required for publishing PACTs -->
                 <groupId>au.com.dius.pact.provider</groupId>
                 <artifactId>maven</artifactId>
-                <version>4.5.1</version>
+                <version>4.5.4</version>
                 <executions>
                     <execution>
                         <phase>deploy</phase>
