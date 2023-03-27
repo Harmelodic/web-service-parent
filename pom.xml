@@ -4,12 +4,35 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.harmelodic</groupId>
+    <groupId>com.harmelodic.???</groupId>
     <artifactId>web-service-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <name>Web Service Parent</name>
     <description>A Maven POM for use as a parent for Java web services.</description>
+    <url>https://github.com/Harmelodic/web-service-parent</url>
+
+    <developers>
+        <developer>
+            <email>???</email>
+            <id>Harmelodic</id>
+            <name>Matt Smith</name>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>???</name>
+            <url>???</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git://github.com/Harmelodic/web-service-parent.git</connection>
+        <developerConnection>scm:git:ssh://github.com:Harmelodic/web-service-parent.git</developerConnection>
+        <url>https://github.com/Harmelodic/web-service-parent/tree/master</url>
+    </scm>
 
     <properties>
         <image.repository>${project.artifactId}</image.repository>
