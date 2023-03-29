@@ -15,4 +15,4 @@ jobs:
         with:
           distribution: temurin
           java-version: 20
-      - run: mvn verify
+      - run: mvn verify --no-transfer-progress

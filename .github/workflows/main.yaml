@@ -17,4 +17,5 @@ jobs:
           java-version: 20
       - run: >
           mvn deploy
+          --no-transfer-progress
           --define skipPactPublish=true
