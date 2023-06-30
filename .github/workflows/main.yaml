@@ -16,6 +16,6 @@ jobs:
           distribution: temurin
           java-version: 20
       - run: >
-          mvn deploy
+          mvn install
           --no-transfer-progress
           --define skipPactPublish=true

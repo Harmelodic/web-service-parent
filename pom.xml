@@ -201,7 +201,7 @@
                         <id>install</id>
                         <phase>install</phase>
                         <goals>
-                            <goal>dockerBuild</goal>
+                            <goal>buildTar</goal>
                         </goals>
                     </execution>
                     <execution>
