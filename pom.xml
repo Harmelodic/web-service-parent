@@ -67,7 +67,7 @@
             <dependency>
                 <groupId>au.com.dius.pact.consumer</groupId>
                 <artifactId>junit5</artifactId>
-                <version>4.6.8</version>
+                <version>4.6.9</version>
                 <scope>test</scope>
                 <exclusions>
                     <exclusion>
@@ -80,7 +80,7 @@
             <dependency>
                 <groupId>au.com.dius.pact.provider</groupId>
                 <artifactId>junit5spring</artifactId>
-                <version>4.6.8</version>
+                <version>4.6.9</version>
                 <scope>test</scope>
                 <exclusions>
                     <exclusion>
@@ -212,7 +212,7 @@
                 <!-- Required for publishing PACTs -->
                 <groupId>au.com.dius.pact.provider</groupId>
                 <artifactId>maven</artifactId>
-                <version>4.6.8</version>
+                <version>4.6.9</version>
                 <executions>
                     <execution>
                         <phase>deploy</phase>
