@@ -7,7 +7,7 @@ on:
   workflow_dispatch: {}
 
 jobs:
-  maven:
+  maven-verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,6 +16,6 @@ jobs:
           distribution: temurin
           java-version: 24
       - run: >
-          mvn install
+          mvn verify
           --no-transfer-progress
           --define skipPactPublish=true
